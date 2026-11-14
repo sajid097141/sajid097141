@@ -1,32 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
-<title id="title">Abstract animated night sky and flowing waves</title>
-<desc id="desc">A deep midnight gradient with softly twinkling stars and layered flowing teal, blue and violet waves.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220" role="img" aria-labelledby="title desc">
+<title id="title">Flowing abstract waves</title>
+<desc id="desc">Smooth layered teal, blue and violet waves flowing across a dark background.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071421"/><stop offset=".55" stop-color="#10172c"/><stop offset="1" stop-color="#17112b"/></linearGradient>
- <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#10b981"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
- <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0f766e"/><stop offset=".5" stop-color="#2563eb"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
- <filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#071421"/>
+    <stop offset="1" stop-color="#15152b"/>
+  </linearGradient>
+  <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#0f766e"/>
+    <stop offset=".52" stop-color="#2563eb"/>
+    <stop offset="1" stop-color="#7c3aed"/>
+  </linearGradient>
+  <linearGradient id="waveB" x1="1" y1="0" x2="0" y2="0">
+    <stop offset="0" stop-color="#14b8a6"/>
+    <stop offset=".55" stop-color="#3b82f6"/>
+    <stop offset="1" stop-color="#8b5cf6"/>
+  </linearGradient>
 </defs>
-<rect width="1000" height="260" rx="18" fill="url(#bg)"/>
-<g fill="#dbeafe">
- <circle cx="92" cy="42" r="1.8"><animate attributeName="opacity" values=".25;1;.25" dur="3s" repeatCount="indefinite"/></circle>
- <circle cx="184" cy="83" r="1.2"><animate attributeName="opacity" values="1;.2;1" dur="4s" repeatCount="indefinite"/></circle>
- <circle cx="285" cy="34" r="1.5"><animate attributeName="opacity" values=".2;.9;.2" dur="3.6s" repeatCount="indefinite"/></circle>
- <circle cx="390" cy="70" r="1.3"><animate attributeName="opacity" values="1;.25;1" dur="4.5s" repeatCount="indefinite"/></circle>
- <circle cx="510" cy="29" r="1.7"><animate attributeName="opacity" values=".2;1;.2" dur="3.2s" repeatCount="indefinite"/></circle>
- <circle cx="620" cy="67" r="1.2"><animate attributeName="opacity" values=".9;.2;.9" dur="4.1s" repeatCount="indefinite"/></circle>
- <circle cx="730" cy="36" r="1.6"><animate attributeName="opacity" values=".2;1;.2" dur="3.7s" repeatCount="indefinite"/></circle>
- <circle cx="845" cy="77" r="1.3"><animate attributeName="opacity" values="1;.2;1" dur="4.2s" repeatCount="indefinite"/></circle>
- <circle cx="930" cy="30" r="1.7"><animate attributeName="opacity" values=".25;1;.25" dur="3.4s" repeatCount="indefinite"/></circle>
-</g>
-<g fill="none" stroke-linecap="round">
- <path d="M-40 158 C130 70 230 230 410 150 S700 75 850 145 S1030 210 1060 135" stroke="url(#w1)" stroke-width="32" opacity=".25" filter="url(#blur)"/>
- <path d="M-40 172 C130 84 230 244 410 164 S700 89 850 159 S1030 224 1060 149" stroke="url(#w1)" stroke-width="3" opacity=".85">
-  <animate attributeName="d" dur="12s" repeatCount="indefinite" values="M-40 172 C130 84 230 244 410 164 S700 89 850 159 S1030 224 1060 149;M-40 145 C130 225 230 65 410 145 S700 225 850 145 S1030 65 1060 145;M-40 172 C130 84 230 244 410 164 S700 89 850 159 S1030 224 1060 149"/>
- </path>
- <path d="M-40 205 C120 130 260 270 440 195 S720 130 900 198 S1040 250 1060 190" stroke="url(#w2)" stroke-width="22" opacity=".32" filter="url(#blur)"/>
- <path d="M-40 214 C120 139 260 279 440 204 S720 139 900 207 S1040 259 1060 199" stroke="url(#w2)" stroke-width="2.5" opacity=".8">
-  <animate attributeName="d" dur="15s" repeatCount="indefinite" values="M-40 214 C120 139 260 279 440 204 S720 139 900 207 S1040 259 1060 199;M-40 190 C120 270 260 120 440 190 S720 270 900 190 S1040 120 1060 190;M-40 214 C120 139 260 279 440 204 S720 139 900 207 S1040 259 1060 199"/>
- </path>
-</g>
+<rect width="1000" height="220" rx="18" fill="url(#background)"/>
+<path d="M0 105 C150 35 260 170 420 105 S700 35 850 100 S960 130 1000 90 L1000 220 L0 220Z" fill="url(#waveA)" opacity=".82">
+  <animate attributeName="d" dur="12s" repeatCount="indefinite" values="M0 105 C150 35 260 170 420 105 S700 35 850 100 S960 130 1000 90 L1000 220 L0 220Z;M0 95 C150 155 260 25 420 95 S700 165 850 95 S960 55 1000 110 L1000 220 L0 220Z;M0 105 C150 35 260 170 420 105 S700 35 850 100 S960 130 1000 90 L1000 220 L0 220Z"/>
+</path>
+<path d="M0 145 C170 80 270 205 450 140 S740 80 900 145 S970 160 1000 130 L1000 220 L0 220Z" fill="url(#waveB)" opacity=".68">
+  <animate attributeName="d" dur="16s" repeatCount="indefinite" values="M0 145 C170 80 270 205 450 140 S740 80 900 145 S970 160 1000 130 L1000 220 L0 220Z;M0 130 C170 195 270 70 450 130 S740 195 900 130 S970 100 1000 155 L1000 220 L0 220Z;M0 145 C170 80 270 205 450 140 S740 80 900 145 S970 160 1000 130 L1000 220 L0 220Z"/>
+</path>
+<path d="M0 180 C160 125 300 220 480 175 S760 125 920 180 S980 190 1000 170 L1000 220 L0 220Z" fill="#0b9488" opacity=".45"/>
 </svg>
