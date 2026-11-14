@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Hey, I'm Sajid 👋</h1>
+<h1>Hey, I'm Sajid Ekbal Choudhury 👋</h1>
   <h3>AI & Machine Learning Enthusiast | Full-Stack Web Developer</h3>
 
   <a href="https://git.io/typing-svg">
