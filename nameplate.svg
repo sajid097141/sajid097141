@@ -1,28 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220" role="img" aria-labelledby="title desc">
-<title id="title">Flowing abstract waves</title>
-<desc id="desc">Smooth layered teal, blue and violet waves flowing across a dark background.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Sajid Ekbal Choudhury — AI and Full-Stack Developer</title>
+<desc id="desc">A dark teal and violet banner with the name Sajid Ekbal Choudhury and layered flowing waves.</desc>
 <defs>
-  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#071421"/>
-    <stop offset="1" stop-color="#15152b"/>
-  </linearGradient>
-  <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#0f766e"/>
-    <stop offset=".52" stop-color="#2563eb"/>
-    <stop offset="1" stop-color="#7c3aed"/>
-  </linearGradient>
-  <linearGradient id="waveB" x1="1" y1="0" x2="0" y2="0">
-    <stop offset="0" stop-color="#14b8a6"/>
-    <stop offset=".55" stop-color="#3b82f6"/>
-    <stop offset="1" stop-color="#8b5cf6"/>
-  </linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071421"/><stop offset="1" stop-color="#17152f"/></linearGradient>
+  <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0f766e"/><stop offset=".52" stop-color="#2563eb"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+  <linearGradient id="wave2" x1="1" y1="0" x2="0" y2="0"><stop stop-color="#14b8a6"/><stop offset=".55" stop-color="#3b82f6"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="12"/></filter>
 </defs>
-<rect width="1000" height="220" rx="18" fill="url(#background)"/>
-<path d="M0 105 C150 35 260 170 420 105 S700 35 850 100 S960 130 1000 90 L1000 220 L0 220Z" fill="url(#waveA)" opacity=".82">
-  <animate attributeName="d" dur="12s" repeatCount="indefinite" values="M0 105 C150 35 260 170 420 105 S700 35 850 100 S960 130 1000 90 L1000 220 L0 220Z;M0 95 C150 155 260 25 420 95 S700 165 850 95 S960 55 1000 110 L1000 220 L0 220Z;M0 105 C150 35 260 170 420 105 S700 35 850 100 S960 130 1000 90 L1000 220 L0 220Z"/>
-</path>
-<path d="M0 145 C170 80 270 205 450 140 S740 80 900 145 S970 160 1000 130 L1000 220 L0 220Z" fill="url(#waveB)" opacity=".68">
-  <animate attributeName="d" dur="16s" repeatCount="indefinite" values="M0 145 C170 80 270 205 450 140 S740 80 900 145 S970 160 1000 130 L1000 220 L0 220Z;M0 130 C170 195 270 70 450 130 S740 195 900 130 S970 100 1000 155 L1000 220 L0 220Z;M0 145 C170 80 270 205 450 140 S740 80 900 145 S970 160 1000 130 L1000 220 L0 220Z"/>
-</path>
-<path d="M0 180 C160 125 300 220 480 175 S760 125 920 180 S980 190 1000 170 L1000 220 L0 220Z" fill="#0b9488" opacity=".45"/>
+<rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+<ellipse cx="600" cy="125" rx="390" ry="65" fill="#0f766e" opacity=".12" filter="url(#glow)"/>
+<text x="600" y="112" text-anchor="middle" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="48" font-weight="700" letter-spacing="1">Sajid Ekbal Choudhury</text>
+<text x="600" y="154" text-anchor="middle" fill="#a7f3d0" font-family="Segoe UI,Arial,sans-serif" font-size="22" letter-spacing="2">AI &amp; MACHINE LEARNING  •  FULL-STACK DEVELOPMENT</text>
+<path d="M0 208 C170 150 270 255 450 202 S760 150 930 205 S1100 245 1200 185 L1200 300 L0 300Z" fill="url(#wave1)" opacity=".88"/>
+<path d="M0 235 C170 180 310 292 500 232 S820 180 990 235 S1120 270 1200 220 L1200 300 L0 300Z" fill="url(#wave2)" opacity=".72"/>
+<path d="M0 270 C180 225 330 310 540 268 S850 225 1030 270 S1150 290 1200 260 L1200 300 L0 300Z" fill="#0b9488" opacity=".48"/>
 </svg>
