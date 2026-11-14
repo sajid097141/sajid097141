@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="profile-banner.jpg" width="100%" alt="Sajid's dark emerald developer banner">
+  <img src="profile-banner.png" width="100%" alt="Sajid's dark emerald developer banner">
 </div>
 
 <br>
