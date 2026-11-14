@@ -1,7 +1,6 @@
 <div align="center">
-  <img src="profile-banner.png" width="100%" alt="Sajid's dark emerald developer banner" />
 
-  <h1>Hi there, I'm Sajid Ekbal Choudhury (@sajid097141)</h1>
+<h1>Hey, I'm Sajid 👋</h1>
   <h3>AI & Machine Learning Enthusiast | Full-Stack Web Developer</h3>
 
   <a href="https://git.io/typing-svg">
@@ -70,7 +69,7 @@ I'm a student developer passionate about building practical, high-impact softwar
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=sajid097141&show_icons=true&theme=tokyonight&hide_border=true" alt="Sajid's GitHub Stats" />
-  <<br /><br /><table><thead><tr><th colspan="4" align="center">Top Languages</th></tr></thead><tbody><tr><td align="center"><code>Python</code></td><td align="center"><code>JavaScript</code></td><td align="center"><code>HTML5</code></td><td align="center"><code>CSS3</code></td></tr></tbody></table>
+  <br /><br /><table><thead><tr><th colspan="4" align="center">Top Languages</th></tr></thead><tbody><tr><td align="center"><code>Python</code></td><td align="center"><code>JavaScript</code></td><td align="center"><code>HTML5</code></td><td align="center"><code>CSS3</code></td></tr></tbody></table>
    <br />
   <img src="https://streak-stats.demolab.com/?user=sajid097141&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
