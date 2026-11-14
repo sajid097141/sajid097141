@@ -70,8 +70,8 @@ I'm a student developer passionate about building practical, high-impact softwar
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=sajid097141&show_icons=true&theme=tokyonight&hide_border=true" alt="Sajid's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sajid097141&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-  <br />
+  <<br /><br /><table><thead><tr><th colspan="4" align="center">Top Languages</th></tr></thead><tbody><tr><td align="center"><code>Python</code></td><td align="center"><code>JavaScript</code></td><td align="center"><code>HTML5</code></td><td align="center"><code>CSS3</code></td></tr></tbody></table>
+   <br />
   <img src="https://streak-stats.demolab.com/?user=sajid097141&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
