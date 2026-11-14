@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-labelledby="title desc">
+  <title id="title">Sajid Ekbal Choudhury</title>
+  <desc id="desc">Animated emerald and cyan typographic signature.</desc>
+  <defs>
+    <linearGradient id="ink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399"><animate attributeName="stop-color" values="#34d399;#67e8f9;#a78bfa;#34d399" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset="50%" stop-color="#67e8f9"><animate attributeName="stop-color" values="#67e8f9;#a78bfa;#34d399;#67e8f9" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" stop-color="#a78bfa"><animate attributeName="stop-color" values="#a78bfa;#34d399;#67e8f9;#a78bfa" dur="8s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <text x="450" y="83" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="48" font-weight="800" letter-spacing="1.5" fill="url(#ink)" filter="url(#glow)">SAJID EK BAL CHOUDHURY</text>
+  <path d="M170 112 H730" fill="none" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/>
+  <path d="M170 112 H730" fill="none" stroke="url(#ink)" stroke-width="3" stroke-linecap="round" stroke-dasharray="110 450">
+    <animate attributeName="stroke-dashoffset" values="560;0;-560" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <circle r="4" fill="#67e8f9"><animateMotion dur="5s" repeatCount="indefinite" path="M170 112 H730"/></circle>
+</svg>
