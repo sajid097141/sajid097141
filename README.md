@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:071421,50:064e4b,100:312e81&height=230&section=header&text=Sajid%20Ekbal%20Choudhury&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=AI%20%26%20Machine%20Learning%20%7C%20Full-Stack%20Development&descSize=17&descAlignY=60" alt="Sajid Ekbal Choudhury wave banner" width="100%"/>
+<img src="./nameplate.svg" width="100%" alt="Sajid Ekbal Choudhury wave banner"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=1000&color=34D399&center=true&vCenter=true&width=680&lines=Building+with+Python+%26+Machine+Learning;Exploring+NLP+%26+Computer+Vision;Developing+Full-Stack+Web+Apps;Learning+by+Building+%26+Iterating" alt="Typing animation" />
@@ -96,6 +96,6 @@ I'm a student developer interested in building practical software at the interse
 
 <a href="https://github.com/sajid097141">Explore my GitHub repositories</a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:312e81,50:064e4b,100:071421&height=110&section=footer" alt="Wave footer" width="100%"/>
+<img src="./nameplate.svg" width="100%" alt="Wave footer"/>
 
 </div>
