@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>Hey, I'm Sajid Ekbal Choudhury 👋</h1>
-<img src="./nameplate.svg" width="100%" alt="Sajid Ekbal Choudhury — animated emerald and cyan signature" />
+<img src="./nameplate.svg" width="100%" alt="Animated emerald, teal and violet wave texture" />
   <h3>AI & Machine Learning Enthusiast | Full-Stack Web Developer</h3>
 
   <a href="https://git.io/typing-svg">
