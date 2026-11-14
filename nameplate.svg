@@ -1,17 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-<title id="title">Sajid Ekbal Choudhury — AI and Full-Stack Developer</title>
-<desc id="desc">A dark teal and violet banner with the name Sajid Ekbal Choudhury and layered flowing waves.</desc>
+<title id="title">Sajid Ekbal Choudhury — Aurora neural network banner</title>
+<desc id="desc">A midnight aurora banner with subtle teal and violet flowing light, connected neural nodes, and the name Sajid Ekbal Choudhury.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071421"/><stop offset="1" stop-color="#17152f"/></linearGradient>
-  <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0f766e"/><stop offset=".52" stop-color="#2563eb"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
-  <linearGradient id="wave2" x1="1" y1="0" x2="0" y2="0"><stop stop-color="#14b8a6"/><stop offset=".55" stop-color="#3b82f6"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="12"/></filter>
+  <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#06131d"/><stop offset=".55" stop-color="#0b1930"/><stop offset="1" stop-color="#17132e"/>
+  </linearGradient>
+  <linearGradient id="auroraA" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#0d9488" stop-opacity=".04"/><stop offset=".38" stop-color="#2dd4bf" stop-opacity=".72"/><stop offset=".72" stop-color="#3b82f6" stop-opacity=".52"/><stop offset="1" stop-color="#8b5cf6" stop-opacity=".08"/>
+  </linearGradient>
+  <linearGradient id="auroraB" x1="1" y1="0" x2="0" y2="0">
+    <stop stop-color="#8b5cf6" stop-opacity=".08"/><stop offset=".45" stop-color="#6366f1" stop-opacity=".5"/><stop offset="1" stop-color="#14b8a6" stop-opacity=".3"/>
+  </linearGradient>
+  <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="18"/>
+  </filter>
+  <filter id="nodeGlow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
 </defs>
-<rect width="1200" height="300" rx="18" fill="url(#bg)"/>
-<ellipse cx="600" cy="125" rx="390" ry="65" fill="#0f766e" opacity=".12" filter="url(#glow)"/>
-<text x="600" y="112" text-anchor="middle" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="48" font-weight="700" letter-spacing="1">Sajid Ekbal Choudhury</text>
-<text x="600" y="154" text-anchor="middle" fill="#a7f3d0" font-family="Segoe UI,Arial,sans-serif" font-size="22" letter-spacing="2">AI &amp; MACHINE LEARNING  •  FULL-STACK DEVELOPMENT</text>
-<path d="M0 208 C170 150 270 255 450 202 S760 150 930 205 S1100 245 1200 185 L1200 300 L0 300Z" fill="url(#wave1)" opacity=".88"/>
-<path d="M0 235 C170 180 310 292 500 232 S820 180 990 235 S1120 270 1200 220 L1200 300 L0 300Z" fill="url(#wave2)" opacity=".72"/>
-<path d="M0 270 C180 225 330 310 540 268 S850 225 1030 270 S1150 290 1200 260 L1200 300 L0 300Z" fill="#0b9488" opacity=".48"/>
+
+<rect width="1200" height="300" rx="18" fill="url(#night)"/>
+
+<!-- soft aurora curtains -->
+<g filter="url(#softGlow)" opacity=".55">
+  <path d="M-60 30 C160 180 250 -25 470 85 S790 200 1000 38 S1190 15 1280 75 L1280 175 C1080 100 960 250 760 150 S440 35 250 160 S30 85 -60 145Z" fill="#0d9488" opacity=".35">
+    <animate attributeName="transform" type="translate" values="0 0;24 -8;0 0" dur="18s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".28;.48;.28" dur="12s" repeatCount="indefinite"/>
+  </path>
+  <path d="M-40 10 C180 110 290 5 500 105 S800 20 980 115 S1130 85 1250 25 L1250 145 C1050 210 900 85 730 170 S420 85 230 145 S40 70 -40 120Z" fill="#6366f1" opacity=".3">
+    <animate attributeName="transform" type="translate" values="0 0;-22 10;0 0" dur="22s" repeatCount="indefinite"/>
+  </path>
+</g>
+
+<!-- fine neural connections -->
+<g fill="none" stroke="#67e8f9" stroke-width="1.2" opacity=".22">
+  <path d="M95 72 L210 115 L335 65 L455 112 L575 58 L700 105 L830 62 L960 112 L1090 65"/>
+  <path d="M150 190 L270 145 L390 205 L510 150 L640 195 L760 145 L885 205 L1010 150 L1135 190"/>
+  <path d="M210 115 L270 145 M335 65 L390 205 M455 112 L510 150 M575 58 L640 195 M700 105 L760 145 M830 62 L885 205 M960 112 L1010 150"/>
+</g>
+<g fill="#a5f3fc" filter="url(#nodeGlow)">
+  <circle cx="95" cy="72" r="3"><animate attributeName="opacity" values=".45;1;.45" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="210" cy="115" r="3.5"><animate attributeName="opacity" values="1;.45;1" dur="5s" repeatCount="indefinite"/></circle>
+  <circle cx="335" cy="65" r="3"><animate attributeName="opacity" values=".5;1;.5" dur="4.5s" repeatCount="indefinite"/></circle>
+  <circle cx="455" cy="112" r="3.5"><animate attributeName="opacity" values=".4;1;.4" dur="5.5s" repeatCount="indefinite"/></circle>
+  <circle cx="575" cy="58" r="3"><animate attributeName="opacity" values="1;.5;1" dur="4.2s" repeatCount="indefinite"/></circle>
+  <circle cx="700" cy="105" r="3.5"><animate attributeName="opacity" values=".45;1;.45" dur="5s" repeatCount="indefinite"/></circle>
+  <circle cx="830" cy="62" r="3"><animate attributeName="opacity" values="1;.5;1" dur="4.7s" repeatCount="indefinite"/></circle>
+  <circle cx="960" cy="112" r="3.5"><animate attributeName="opacity" values=".4;1;.4" dur="5.2s" repeatCount="indefinite"/></circle>
+  <circle cx="1090" cy="65" r="3"><animate attributeName="opacity" values=".5;1;.5" dur="4.4s" repeatCount="indefinite"/></circle>
+  <circle cx="150" cy="190" r="3"><animate attributeName="opacity" values=".5;1;.5" dur="5s" repeatCount="indefinite"/></circle>
+  <circle cx="270" cy="145" r="3.5"><animate attributeName="opacity" values="1;.5;1" dur="4.5s" repeatCount="indefinite"/></circle>
+  <circle cx="390" cy="205" r="3"><animate attributeName="opacity" values=".4;1;.4" dur="5.4s" repeatCount="indefinite"/></circle>
+  <circle cx="510" cy="150" r="3.5"><animate attributeName="opacity" values=".5;1;.5" dur="4.3s" repeatCount="indefinite"/></circle>
+  <circle cx="640" cy="195" r="3"><animate attributeName="opacity" values="1;.5;1" dur="5.1s" repeatCount="indefinite"/></circle>
+  <circle cx="760" cy="145" r="3.5"><animate attributeName="opacity" values=".45;1;.45" dur="4.6s" repeatCount="indefinite"/></circle>
+  <circle cx="885" cy="205" r="3"><animate attributeName="opacity" values="1;.5;1" dur="5.3s" repeatCount="indefinite"/></circle>
+  <circle cx="1010" cy="150" r="3.5"><animate attributeName="opacity" values=".4;1;.4" dur="4.8s" repeatCount="indefinite"/></circle>
+  <circle cx="1135" cy="190" r="3"><animate attributeName="opacity" values=".5;1;.5" dur="5.5s" repeatCount="indefinite"/></circle>
+</g>
+
+<!-- nameplate -->
+<text x="600" y="118" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="47" font-weight="700" letter-spacing=".4">Sajid Ekbal Choudhury</text>
+<text x="600" y="157" text-anchor="middle" fill="#a7f3d0" font-family="Segoe UI,Arial,sans-serif" font-size="19" letter-spacing="2.2">AI &amp; MACHINE LEARNING  •  FULL-STACK DEVELOPMENT</text>
+
+<!-- layered flowing aurora waves -->
+<path d="M0 218 C155 170 260 250 410 213 S680 170 835 218 S1070 245 1200 198 L1200 300 L0 300Z" fill="url(#auroraA)" opacity=".82">
+  <animate attributeName="d" dur="17s" repeatCount="indefinite" values="M0 218 C155 170 260 250 410 213 S680 170 835 218 S1070 245 1200 198 L1200 300 L0 300Z;M0 210 C155 245 260 175 410 210 S680 250 835 210 S1070 175 1200 220 L1200 300 L0 300Z;M0 218 C155 170 260 250 410 213 S680 170 835 218 S1070 245 1200 198 L1200 300 L0 300Z"/>
+</path>
+<path d="M0 248 C170 205 285 285 460 245 S760 205 930 250 S1100 275 1200 235 L1200 300 L0 300Z" fill="url(#auroraB)" opacity=".72">
+  <animate attributeName="d" dur="21s" repeatCount="indefinite" values="M0 248 C170 205 285 285 460 245 S760 205 930 250 S1100 275 1200 235 L1200 300 L0 300Z;M0 238 C170 280 285 215 460 238 S760 280 930 238 S1100 215 1200 250 L1200 300 L0 300Z;M0 248 C170 205 285 285 460 245 S760 205 930 250 S1100 275 1200 235 L1200 300 L0 300Z"/>
+</path>
+<path d="M0 278 C180 245 320 310 510 276 S830 245 1010 278 S1140 292 1200 270 L1200 300 L0 300Z" fill="#0f766e" opacity=".5"/>
 </svg>
