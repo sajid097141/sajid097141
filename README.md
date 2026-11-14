@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./aurora_neural_banner.gif" width="100%" alt="Animated Aurora and Neural Network banner for Sajid Ekbal Choudhury"/>
+<img src="./aurora_neural_banner_blue_black.gif" width="100%" alt="Animated Aurora and Neural Network banner for Sajid Ekbal Choudhury"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=1000&color=34D399&center=true&vCenter=true&width=680&lines=Building+with+Python+%26+Machine+Learning;Exploring+NLP+%26+Computer+Vision;Developing+Full-Stack+Web+Apps;Learning+by+Building+%26+Iterating" alt="Typing animation" />
@@ -96,6 +96,6 @@ I'm a student developer interested in building practical software at the interse
 
 <a href="https://github.com/sajid097141">Explore my GitHub repositories</a>
 
-<img src="./aurora_neural_banner.gif" width="100%" alt="Animated aurora footer"/>
+<img src="./aurora_neural_banner_blue_black.gif" width="100%" alt="Animated aurora footer"/>
 
 </div>
