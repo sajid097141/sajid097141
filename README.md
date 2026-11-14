@@ -1,4 +1,10 @@
 <div align="center">
+  <img src="profile-banner.jpg" width="100%" alt="Sajid's dark emerald developer banner">
+</div>
+
+<br>
+
+<div align="center">
 
 # Sajid Ekbal Choudhury
 ### Student Developer · Python · AI/ML · Full-Stack Development
