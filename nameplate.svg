@@ -1,21 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-labelledby="title desc">
-  <title id="title">Sajid Ekbal Choudhury</title>
-  <desc id="desc">Animated emerald and cyan typographic signature.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="170" viewBox="0 0 900 170" role="img" aria-labelledby="title desc">
+  <title id="title">Animated abstract wave texture</title>
+  <desc id="desc">Layered flowing emerald, teal and violet wave lines with a soft luminous gradient.</desc>
   <defs>
-    <linearGradient id="ink" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#34d399"><animate attributeName="stop-color" values="#34d399;#67e8f9;#a78bfa;#34d399" dur="8s" repeatCount="indefinite"/></stop>
-      <stop offset="50%" stop-color="#67e8f9"><animate attributeName="stop-color" values="#67e8f9;#a78bfa;#34d399;#67e8f9" dur="8s" repeatCount="indefinite"/></stop>
-      <stop offset="100%" stop-color="#a78bfa"><animate attributeName="stop-color" values="#a78bfa;#34d399;#67e8f9;#a78bfa" dur="8s" repeatCount="indefinite"/></stop>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="48%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+      <animate attributeName="x1" values="0%;30%;0%" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;70%;100%" dur="12s" repeatCount="indefinite"/>
     </linearGradient>
-    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="softGlow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="5"/>
     </filter>
   </defs>
-  <text x="450" y="83" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="48" font-weight="800" letter-spacing="1.5" fill="url(#ink)" filter="url(#glow)">SAJID EKBAL CHOUDHURY</text>
-  <path d="M170 112 H730" fill="none" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/>
-  <path d="M170 112 H730" fill="none" stroke="url(#ink)" stroke-width="3" stroke-linecap="round" stroke-dasharray="110 450">
-    <animate attributeName="stroke-dashoffset" values="560;0;-560" dur="5s" repeatCount="indefinite"/>
-  </path>
-  <circle r="4" fill="#67e8f9"><animateMotion dur="5s" repeatCount="indefinite" path="M170 112 H730"/></circle>
+  <g fill="none" stroke="url(#wave)" stroke-linecap="round">
+    <path d="M-30 62 C100 5 180 118 310 62 S520 5 650 62 S850 118 930 55" stroke-width="13" opacity=".24" filter="url(#softGlow)">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite" values="M-30 62 C100 5 180 118 310 62 S520 5 650 62 S850 118 930 55;M-30 82 C100 135 180 20 310 82 S520 135 650 82 S850 20 930 85;M-30 62 C100 5 180 118 310 62 S520 5 650 62 S850 118 930 55"/>
+    </path>
+    <path d="M-30 62 C100 5 180 118 310 62 S520 5 650 62 S850 118 930 55" stroke-width="2.5" opacity=".9">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite" values="M-30 62 C100 5 180 118 310 62 S520 5 650 62 S850 118 930 55;M-30 82 C100 135 180 20 310 82 S520 135 650 82 S850 20 930 85;M-30 62 C100 5 180 118 310 62 S520 5 650 62 S850 118 930 55"/>
+    </path>
+    <path d="M-30 105 C110 48 190 158 330 105 S550 48 690 105 S850 158 930 98" stroke-width="2" opacity=".55">
+      <animate attributeName="d" dur="11s" repeatCount="indefinite" values="M-30 105 C110 48 190 158 330 105 S550 48 690 105 S850 158 930 98;M-30 90 C110 150 190 38 330 90 S550 150 690 90 S850 38 930 105;M-30 105 C110 48 190 158 330 105 S550 48 690 105 S850 158 930 98"/>
+    </path>
+    <path d="M-30 30 C100 85 200 -10 330 30 S550 85 680 30 S850 -10 930 35" stroke-width="1.5" opacity=".35">
+      <animate attributeName="d" dur="13s" repeatCount="indefinite" values="M-30 30 C100 85 200 -10 330 30 S550 85 680 30 S850 -10 930 35;M-30 45 C100 -15 200 95 330 45 S550 -15 680 45 S850 95 930 30;M-30 30 C100 85 200 -10 330 30 S550 85 680 30 S850 -10 930 35"/>
+    </path>
+  </g>
 </svg>
