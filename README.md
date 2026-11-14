@@ -1,39 +1,47 @@
 <div align="center">
 
-# Hey, I'm Sajid 👋
-
+# Sajid Ekbal Choudhury
 ### Student Developer · Python · AI/ML · Full-Stack Development
 
-Building practical projects at the intersection of software, machine learning, and thoughtful design.
+**Curious mind. Practical builds. Continuous iteration.**
 
-[![GitHub](https://img.shields.io/badge/GitHub-sajid097141-181717?style=for-the-badge&logo=github)](https://github.com/sajid097141)
+[![GitHub](https://img.shields.io/badge/GitHub-sajid097141-181717?style=flat-square&logo=github)](https://github.com/sajid097141)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 
 </div>
 
 ---
 
-## About me
+## 👋 About
 
-- 🎓 Student developer interested in **computer science, AI, and software engineering**.
-- 🧠 Exploring **machine learning, NLP, Python, and web development**.
-- 🛠️ I enjoy turning ideas into working projects and learning by building.
-- 🌱 Currently improving my skills in backend development, model evaluation, and application design.
+I'm a student developer exploring the space between **software engineering, machine learning, and useful product experiences**.
 
-## Featured project
+- 🧠 Learning by building projects, testing ideas, and improving through iteration.
+- 🐍 Working with Python, machine learning, NLP, and web technologies.
+- 🧩 Interested in backend systems, clean interfaces, and practical AI applications.
+- 🚀 Focused on turning concepts into projects that people can actually use.
+
+## 🚀 Featured work
 
 ### [VERITAS — AI-Powered Fake News Detection](https://github.com/sajid097141/fake-news-detection-capstone)
 
-A news-analysis project combining a machine-learning text classifier with external fact-check and news-coverage lookups.
+A news-analysis application that combines a machine-learning text classifier with external fact-check and news-coverage lookups.
 
-- **ML:** TF-IDF + Logistic Regression
-- **Backend:** Flask
-- **Frontend:** HTML, CSS, JavaScript
-- **Integrations:** Google Fact Check Tools and GDELT
-- **Testing:** Automated API and external-client tests
+| Layer | Technology |
+|---|---|
+| Machine learning | TF-IDF, Logistic Regression, scikit-learn |
+| Backend | Python, Flask |
+| Frontend | HTML, CSS, JavaScript |
+| External sources | Google Fact Check Tools, GDELT |
 
-> A model prediction is a classification signal, not proof that a claim is true or false.
+**A note on responsible AI:** the model produces a classification signal; it does not independently establish whether a claim is true or false.
 
-## Tech I work with
+### [VERITAS Lab](https://github.com/sajid097141/fake-news-detection-capstone-lab)
+
+An experimental copy of the project repository for trying improvements and exploring new approaches separately from the stable project.
+
+## 🧰 Tech stack
 
 <div align="center">
 
@@ -48,11 +56,19 @@ A news-analysis project combining a machine-learning text classifier with extern
 
 </div>
 
-## Explore
+## 📊 GitHub activity
 
-- 📌 [My repositories](https://github.com/sajid097141?tab=repositories)
-- 🚀 [VERITAS project](https://github.com/sajid097141/fake-news-detection-capstone)
-- 🧪 [VERITAS experimental lab](https://github.com/sajid097141/fake-news-detection-capstone-lab)
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=sajid097141&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sajid097141&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
+
+</div>
+
+## 🌐 Find me
+
+- **GitHub:** [@sajid097141](https://github.com/sajid097141)
+- **Repositories:** [Explore my projects](https://github.com/sajid097141?tab=repositories)
 
 ---
 
